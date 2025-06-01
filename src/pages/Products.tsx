@@ -12,7 +12,6 @@ const Products = () => {
     <div className="min-h-screen bg-gray-50">
       <Navigation />
       
-      {/* Header Section */}
       <section className="bg-gradient-to-br from-amber-50 to-orange-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Premium Products</h1>
@@ -23,12 +22,10 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Main Products Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             
-            {/* Whole Egg Powder */}
             <Card className="overflow-hidden shadow-lg">
               <div className="aspect-video">
                 <img 
@@ -94,7 +91,6 @@ const Products = () => {
               </CardContent>
             </Card>
 
-            {/* Eggshell Powder */}
             <Card className="overflow-hidden shadow-lg">
               <div className="aspect-video">
                 <img 
@@ -154,7 +150,7 @@ const Products = () => {
                   <h4 className="font-semibold text-gray-900 mb-2">Specifications:</h4>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Mesh size: 100-200 (customizable)</li>
-                    <li>• Moisture content: <2%</li>
+                    <li>• Moisture content: &lt;2%</li>
                     <li>• Microbiological tested and certified</li>
                   </ul>
                 </div>
@@ -162,7 +158,6 @@ const Products = () => {
             </Card>
           </div>
 
-          {/* Additional Products */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <Card className="shadow-lg">
               <CardHeader>
@@ -222,7 +217,6 @@ const Products = () => {
             </Card>
           </div>
 
-          {/* Import Services Section */}
           <Card className="bg-gray-900 text-white overflow-hidden">
             <div className="p-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -272,7 +266,6 @@ const Products = () => {
             </div>
           </Card>
 
-          {/* CTA Section */}
           <div className="text-center mt-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Place Your Order?</h2>
             <p className="text-xl text-gray-600 mb-8">
